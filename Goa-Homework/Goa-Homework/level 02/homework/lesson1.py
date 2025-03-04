@@ -8,27 +8,24 @@
 
 
 
-# control flow, 3. syntax error, logical error 
+# control flow, 3. syntax error, logical error
 
 
 "hello luka" 
-11
-3.4
+13
+45.6 #kg
 True
 False
 
-"hello " + "luka" # "hello luka"
-11+11#22
-"11"+"11" # 1111
-# "hello" + 'luka' # error
-11-11# 0
-# "hello" * 'luka' # error
-11*11#121
-"hello" * 2 # hellohello
-# "hello" / 2 # error 
-# "hello" + 120 # error
-"hello" - 120 # error 
-
+#"hello " + "luka" # "hello luka"
+string1="hello"
+string2=" (kg)"
+string3=" (year)"
+text = " luka"
+integer=" 13"
+float=" 45.6"
+text= string1 + text + integer + string3  + float + string2 
+print(text)
 
 
 
