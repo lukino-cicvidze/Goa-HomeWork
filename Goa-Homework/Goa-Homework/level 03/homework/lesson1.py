@@ -1,12 +1,11 @@
+# მომხმარებლისგან ოთხი რიცხვის მიღება
+num1 = float(input("შეიყვანეთ პირველი რიცხვი: 3 "))
+num2 = float(input("შეიყვანეთ მეორე რიცხვი: 8 "))
+num3 = float(input("შეიყვანეთ მესამე რიცხვი: 3 "))
+num4 = float(input("შეიყვანეთ მეოთხე რიცხვი: 4 "))
 
-# string, booleanl, float, integer, None
-#input
-#variable
-#print
-# type casting ( str () int () )
+# საშუალო არითმეტიკული გამოთვლა
+average = (num1 + num2 + num3 + num4) / 4
 
-text="luka"
-text=text + "tsitsvidze"
-print(text)
-
-# websaitze profilze wers saxels da gvars
+# შედეგის გამოყვანა
+print("მოთხოვნილი რიცხვების საშუალო არითმეტიკული არის:", average)
